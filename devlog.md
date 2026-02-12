@@ -44,7 +44,7 @@
 ## Feb 11th, 2026
 
 12. Reminded myself of core competencies plan; decided that iterating upon this
-    calculator project for _all_ of the core-competencies would be a good idea.
+    calculator project for _all_ the core-competencies would be a good idea.
 
 13. Created/iterated on documentation (Markdown) files, including:
     - `curricular-competencies.md`
