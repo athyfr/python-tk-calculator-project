@@ -6,6 +6,9 @@ author: Asten Valentinus
 
 ## Competencies Met
 
+- Grade 12 CS C: Recursive Algorithms
+    - factorials - implemented `factorial(n: int) -> int` in `main.py`.
+
 ## Competencies
 
 ### Grade 11 CS Curricular Competencies
