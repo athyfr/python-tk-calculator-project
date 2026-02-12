@@ -1,4 +1,4 @@
-import math
+import math  # Included for scope of `eval()` function.
 import tkinter as tk
 from functools import partial
 from tkinter import ttk
