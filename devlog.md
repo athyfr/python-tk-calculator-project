@@ -5,7 +5,7 @@
 1. Decided to make a calculator program, as that can integrate many algorithms.
 
 2. Went to the [recommended](https://docs.python.org/3/library/tkinter.html)
-   TKinter [tutorial](https://tkdocs.com/tutorial/intro.html) to learn how to
+   Tkinter [tutorial](https://tkdocs.com/tutorial/intro.html) to learn how to
    make GUIs.
 
 ## Feb 5th, 2026
@@ -15,7 +15,7 @@
 4. Using [Zed editor](https://zed.dev/) instead of Thonny, as I'm more
    familiar/comfortable using that. (I'm using
    [ty](https://github.com/astral-sh/ty) and
-   [ruff](https://github.com/astral-sh/ruff) LSPs)
+   [Ruff](https://github.com/astral-sh/ruff) LSPs)
 
 5. Decided to pause the tutorial; the first example contains everything I need
    for this project.
@@ -27,17 +27,19 @@
    `function.bind(argument)`; it is `partial(function, argument)`,
    `from functools import partial`. (see [GeeksforGeeks article](https://www.geeksforgeeks.org/python/how-to-bind-arguments-to-given-values-in-python-functions/))
 
-8. Skimmed tkdocs, and found that journal entry 6 was wrong; a widget can span
+8. Skimmed TkDocs, and found that journal entry 6 was wrong; a widget can span
    multiple grid cells using `columnspan` and `rowspan`. Regardless, the design
    I came up with has other advantages; I'm now using a `ttk.Notebook` to allow
    different calculator button sets. (Basic one would be arithmetic.)
 
 9. Tweaked my development environment; `rumdl` for Markdown formatting (this
-   journal), and `harper-ls` for spell/grammar checking in Markdown and comments.
+   journal), and `harper-ls` for spell/grammar checking in Markdown and
+   comments.
 
 ## Feb 9th or 10th?, 2026
 
-10. Tweaked ruff formatter/linter to be compliant to PEP8 (line length 88 -> 79)
+10. Tweaked ruff formatter/linter to be compliant to PEP 8
+    (line length 88 -> 79)
 
 11. Decided to use Python's `eval()` to calculate expressions.
 
