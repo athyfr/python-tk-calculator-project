@@ -96,7 +96,8 @@ author: Asten Valentinus
 
 - Develop, demonstrate, and apply conceptual understanding through
   experimentation, inquiry, and problem solving
-- Visualize to explore and illustrate computer science concepts and relationships
+- Visualize to explore and illustrate computer science concepts and
+  relationships
 - Apply flexible and strategic approaches to solve problems
 - Solve problems with persistence and a positive disposition
 - Engage in problem-solving experiences connected with place, story, cultural
