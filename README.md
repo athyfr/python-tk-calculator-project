@@ -29,6 +29,8 @@ Arithmetic buttons:
 This calculator GUI uses Python's `eval()` function, so Python expressions are
 used for calculations.
 
-Python's math library is imported using `from math import *`, so any functions
-from that may be used. Some of these functions are overridden with custom
-implementations to demonstrate my understanding of them.
+Python's math library is imported using `import math`, so any functions
+from that may be used. Some of these functions are reimplemented in the local
+namespace, including:
+
+-
