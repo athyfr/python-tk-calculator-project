@@ -149,6 +149,18 @@ Searching:
 - Analyzing algorithms to predict and compare run-time complexity.
 - Working with large data-sets.
 
+#### Recursive Algorithms
+
+- Recognizing recursive problems or patterns
+- Understanding particular examples:
+    - Fibonacci sequence
+    - exponents
+    - factorials
+    - palindromes
+    - combinations
+    - greatest common factor
+    - fractals
+
 #### File Storage
 
 - Understanding of directory structure.
