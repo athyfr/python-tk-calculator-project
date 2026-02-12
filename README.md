@@ -5,7 +5,8 @@
 This project is made to try to fulfill this requirement:
 
 > "I'll make a calculator project to demonstrate several recursive algorithms
-> (Fibonacci, exponents, factorials, palindromes, combinations, GCF)"
+> (Fibonacci, exponents, factorials, palindromes, combinations, greatest
+> common factor)"
 
 ## Layout
 

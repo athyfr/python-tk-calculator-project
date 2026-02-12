@@ -154,7 +154,6 @@ arithmetic_frame.rowconfigure(0, weight=1)
 
 # --- Finalizing
 
-
 #
 
 # --- Start main loop
