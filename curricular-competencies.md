@@ -8,11 +8,9 @@ author: Asten Valentinus
 
 ## Competencies
 
-### Grade 11 Curricular Competencies
+### Grade 11 CS Curricular Competencies
 
 #### Reasoning and Modelling/Analyzing
-
-<details><summary>Computer Science</summary>
 
 - Develop flexible thinking to analyze and create algorithms
 - Explore, analyze, and apply mathematical ideas and computer science concepts
@@ -20,19 +18,7 @@ author: Asten Valentinus
 - Model with mathematics in situational contexts
 - Think creatively and with curiosity and wonder when exploring problems
 
-</details>
-
-<details><summary>Math</summary>
-
-- Estimate reasonably
-- Develop mental math strategies and abilities to make sense of quantities
-- Use reasoning and logic to explore and make connections
-
-</details>
-
 #### Understanding and Solving
-
-<details><summary>Computer Science</summary>
 
 - Develop, demonstrate, and apply conceptual understanding through
   experimentation, inquiry, and problem solving
@@ -44,22 +30,7 @@ author: Asten Valentinus
   practices, and perspectives relevant to local First Peoples communities, the
   local community, and other cultures
 
-</details>
-
-<details><summary>Math</summary>
-
-- Using multiple strategies to engage in problem solving (i.e. Visual, oral,
-  role-play, experimental, written, symbolic)
-- Develop, construct, and apply mathematical understanding through role-play
-  inquiry, and problem-solving.
-- Engage in problem-solving experiences that are connected to place, story and
-  cultural practices relevant to the local community
-
-</details>
-
 #### Communicating and Representing
-
-<details><summary>Computer Science</summary>
 
 - Explain and justify mathematical ideas and decisions in many ways
 - Represent computer science ideas in concrete, pictorial, symbolic, and
@@ -68,20 +39,33 @@ author: Asten Valentinus
   discussions in the classroom
 - Take risks when offering ideas in classroom discourse
 
-</details>
+### Grade 11 Math Curricular Competencies
 
-<details><summary>Math</summary>
+#### Reasoning and Modelling/Analyzing
+
+- Estimate reasonably
+- Develop mental math strategies and abilities to make sense of quantities
+- Use reasoning and logic to explore and make connections
+
+#### Understanding and Solving
+
+- Using multiple strategies to engage in problem solving (i.e. Visual, oral,
+  role-play, experimental, written, symbolic)
+- Develop, construct, and apply mathematical understanding through role-play
+  inquiry, and problem-solving.
+- Engage in problem-solving experiences that are connected to place, story and
+  cultural practices relevant to the local community
+
+#### Communicating and Representing
 
 - Communicate in many ways (concretely, pictorially, symbolically, and using
   spoken or written language to express, describe, explain, and apply
   mathematical ideas)
 - Describe, create, and interpret
 
-</details>
-
 #### Connecting and Reflecting
 
-### Grade 12 Curricular Competencies
+### Grade 12 CS Curricular Competencies
 
 #### Reasoning and Modelling
 
@@ -121,7 +105,7 @@ author: Asten Valentinus
 - Incorporate First Peoples worldviews, perspectives, knowledge, and practices
   to make connections with computer science concepts
 
-### Grade 12 Content
+### Grade 12 CS Content
 
 #### Advanced Variable Usage
 
