@@ -8,7 +8,121 @@ author: Asten Valentinus
 
 ## Competencies
 
-### Advanced Variable Usage
+### Grade 11 Curricular Competencies
+
+#### Reasoning and Modelling/Analyzing
+
+<details><summary>Computer Science</summary>
+
+- Develop flexible thinking to analyze and create algorithms
+- Explore, analyze, and apply mathematical ideas and computer science concepts
+  using reason, technology, and other tools
+- Model with mathematics in situational contexts
+- Think creatively and with curiosity and wonder when exploring problems
+
+</details>
+
+<details><summary>Math</summary>
+
+- Estimate reasonably
+- Develop mental math strategies and abilities to make sense of quantities
+- Use reasoning and logic to explore and make connections
+
+</details>
+
+#### Understanding and Solving
+
+<details><summary>Computer Science</summary>
+
+- Develop, demonstrate, and apply conceptual understanding through
+  experimentation, inquiry, and problem solving
+- Visualize to explore and illustrate computer science concepts and
+  relationships
+- Apply flexible and strategic approaches to solve problems
+- Solve problems with persistence and a positive disposition
+- Engage in problem-solving experiences connected with place, story, cultural
+  practices, and perspectives relevant to local First Peoples communities, the
+  local community, and other cultures
+
+</details>
+
+<details><summary>Math</summary>
+
+- Using multiple strategies to engage in problem solving (i.e. Visual, oral,
+  role-play, experimental, written, symbolic)
+- Develop, construct, and apply mathematical understanding through role-play
+  inquiry, and problem-solving.
+- Engage in problem-solving experiences that are connected to place, story and
+  cultural practices relevant to the local community
+
+</details>
+
+#### Communicating and Representing
+
+<details><summary>Computer Science</summary>
+
+- Explain and justify mathematical ideas and decisions in many ways
+- Represent computer science ideas in concrete, pictorial, symbolic, and
+  pseudocode forms
+- Use computer science and mathematical vocabulary and language to contribute to
+  discussions in the classroom
+- Take risks when offering ideas in classroom discourse
+
+</details>
+
+<details><summary>Math</summary>
+
+- Communicate in many ways (concretely, pictorially, symbolically, and using
+  spoken or written language to express, describe, explain, and apply
+  mathematical ideas)
+- Describe, create, and interpret
+
+</details>
+
+#### Connecting and Reflecting
+
+### Grade 12 Curricular Competencies
+
+#### Reasoning and Modelling
+
+- Develop fluent, flexible, and strategic thinking to analyze and create
+  algorithms
+- Explore, analyze, and apply mathematical ideas and computer science concepts
+  using reason, technology, and other tools
+- Model with mathematics in situational contexts
+- Think creatively and with curiosity and wonder when exploring problems
+
+#### Understanding and Solving
+
+- Develop, demonstrate, and apply conceptual understanding through
+  experimentation, inquiry, and problem solving
+- Visualize to explore and illustrate computer science concepts and relationships
+- Apply flexible and strategic approaches to solve problems
+- Solve problems with persistence and a positive disposition
+- Engage in problem-solving experiences connected with place, story, cultural
+  practices, and perspectives relevant to local First Peoples communities, the
+  local community, and other cultures
+
+#### Communicating and Representing
+
+- Explain and justify computer science ideas and decisions in many ways
+- Represent computer science ideas in concrete, pictorial, and symbolic forms
+- Use computer science and mathematical vocabulary and language to contribute to
+  discussions in the classroom
+- Take risks when offering ideas in classroom discourse
+
+#### Connecting and Reflecting
+
+- Reflect on mathematical and computational thinking
+- Connect mathematical and computer science concepts with each other, other
+  areas, and personal interests
+- Use mistakes as opportunities to advance learning
+- Incorporate First Peoples worldviews, perspectives, knowledge, and practices
+  to make connections with computer science concepts
+
+### Grade 12 Content
+
+#### Advanced Variable Usage
 
 Document where immutability is used. Document where pass-by-reference is
 implicitly active (mapping types and objects)
@@ -19,7 +133,7 @@ discourage it, and use other syntactical features in its place.
 - Mutability vs. immutability
 - Pass-by-value vs. pass-by-reference
 
-### Data-Structures
+#### Data-Structures
 
 Understanding of data-structures and use-cases. Document usage of these.
 
@@ -31,7 +145,7 @@ Understanding of data-structures and use-cases. Document usage of these.
 - trees
 - stacks
 
-### Classical Algorithms
+#### Classical Algorithms
 
 Sorting:
 
@@ -45,12 +159,12 @@ Searching:
 - binary search
 - data-structure traversal
 
-### Big-O Notation
+#### Big-O Notation
 
 - Analyzing algorithms to predict and compare run-time complexity.
 - Working with large data-sets.
 
-### File Storage
+#### File Storage
 
 - Understanding of directory structure.
 - Ability to use libraries for abstracted data-storage (such as JSON).
