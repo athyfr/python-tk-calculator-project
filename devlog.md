@@ -35,9 +35,13 @@
 9. Tweaked my development environment; `rumdl` for Markdown formatting (this
    journal), and `harper-ls` for spell/grammar checking in Markdown and comments.
 
+## Feb 9th or 10th?, 2026
+
 10. Tweaked ruff formatter/linter to be compliant to PEP8 (line length 88 -> 79)
 
 11. Decided to use Python's `eval()` to calculate expressions.
+
+## Feb 11th, 2026
 
 12. Reminded myself of core competencies plan; decided that iterating upon this
     calculator project for _all_ of the core-competencies would be a good idea.
