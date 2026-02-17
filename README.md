@@ -17,4 +17,5 @@ Python's math library is imported using `import math`, so any functions
 from that may be used. Some of these functions are reimplemented in the local
 namespace, including:
 
--
+- `factorial(n: int) -> int`: Calculates the factorial using a for loop, and
+  returns a `ValueError` when negative numbers or integers are used.
