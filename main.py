@@ -40,16 +40,23 @@ def factorial(n: int) -> int:
 
 # Enters a string into the expression box; used for buttons.
 def enterText(char: str) -> None:
+    print(f"Pressed '{char}' button.")
     oldExpression: str = expression.get()
     expression.set(oldExpression + char)
 
 
 # Calculates the result and packs it into the output label.
 def calculate() -> None:
+    expression_str: str = expression.get()
+    print(f"Calculating '{expression_str}'")
     try:
-        output.set(eval(expression.get()))
+        result: str = eval(expression_str)
+        output.set(result)
+        print(f"Answer is '{result}'.")
     except ValueError as e:
-        # Will update to show in GUI
+        # Show error in GUI
+        output.set(f"ERROR: {e}")
+        # Show error in console
         print(f"Caught an error: {e}")
 
 
