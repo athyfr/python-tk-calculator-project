@@ -55,3 +55,7 @@
 ## Feb 12th, 2026
 
 14. Added factorial function.
+
+## Feb 17th, 2026
+
+15. Added exception handling based on [this](https://www.geeksforgeeks.org/python/define-custom-exceptions-in-python/)

@@ -21,7 +21,7 @@ from tkinter import ttk
 def factorial(n: int) -> int:
     # If n is negative, return -1 to indicate error.
     if n < 0:
-        return -1
+        raise ValueError("Negative number does not have a factorial.")
     # If n is 0 or 1, return 1, as that is correct in that case.
     if n == 0 or n == 1:
         return 1
@@ -46,7 +46,11 @@ def enterText(char: str) -> None:
 
 # Calculates the result and packs it into the output label.
 def calculate() -> None:
-    output.set(eval(expression.get()))
+    try:
+        output.set(eval(expression.get()))
+    except ValueError as e:
+        # Will update to show in GUI
+        print(f"Caught an error: {e}")
 
 
 # ------- Initialization
