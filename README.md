@@ -8,22 +8,6 @@ This project is made to try to fulfill this requirement:
 > (Fibonacci, exponents, factorials, palindromes, combinations, greatest
 > common factor)"
 
-## Layout
-
-<!-- Pandoc grid_tables format used. -->
-
-Arithmetic buttons:
-
-+:-:+:-:+:-:+:-:+
-| 7 | 8 | 9 | / |
-+---+---+---+---+
-| 4 | 5 | 6 |\* |
-+---+---+---+---+
-| 1 | 2 | 3 |\- |
-+---+---+---+---+
-| 0 | . | = |\+ |
-+---+---+---+---+
-
 ## Functions
 
 This calculator GUI uses Python's `eval()` function, so Python expressions are
