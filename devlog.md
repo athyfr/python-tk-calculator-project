@@ -51,3 +51,7 @@
 13. Created/iterated on documentation (Markdown) files, including:
     - `curricular-competencies.md`
     - `README.md`
+
+## Feb 12th, 2026
+
+14. Added factorial function.
