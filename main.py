@@ -5,7 +5,9 @@ from tkinter import ttk
 
 # NOTE: LSP code rules:
 # - ty LSP can perform type checking if you use hinting.
-#      Always use hinting on variables.
+#       Always use hinting on variables.
+#   For completions sake, use `typing.Any` if you ever need not to have
+#       strict typing.
 # - Ruff LSP doesn't support star imports. Don't use star imports.
 # INFO: Curricular competencies met:
 # - Nothing yet!
