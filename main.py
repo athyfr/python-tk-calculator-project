@@ -168,8 +168,8 @@ arithmetic_frame.columnconfigure(0, weight=1)
 arithmetic_frame.rowconfigure(0, weight=1)
 
 # --- Finalizing
-
-#
+# Bind return key to calculate function
+expression_entry.bind("<Return>", calculate)  # ty:ignore[no-matching-overload]
 
 # --- Start main loop
 root.mainloop()
