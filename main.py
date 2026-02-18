@@ -3,8 +3,8 @@ import tkinter as tk
 from functools import partial
 from tkinter import ttk
 
-from secure_eval import eval_expr
 import recursive_math
+from secure_eval import eval_expr
 
 # NOTE: LSP code rules:
 # - ty LSP can perform type checking if you use hinting.
