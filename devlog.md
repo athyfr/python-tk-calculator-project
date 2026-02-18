@@ -76,3 +76,7 @@
 
 20. Thoroughly looked through (and copied) curricular competencies. (not
     present in this repo for licensing reasons)
+
+21. Organized code into separate files
+
+22. Enforced better security on eval call. (see [Real Python's article](https://realpython.com/python-eval-function/))
