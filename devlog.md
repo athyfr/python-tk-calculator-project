@@ -70,3 +70,6 @@
 ## Feb 18th, 2026
 
 18. Researched and found [tutorial by _Real Python_ about unit tests.](https://realpython.com/python-testing/))
+
+19. Assigned to implement a program for solving linear systems. [Textbook can be
+    found here](https://github.com/APEXCalculus/Fundamentals-of-Matrix-Algebra-4th-Edition/blob/master/Fundamentals%20of%20Matrix%20Algebra%203rd%20Edition.pdf) (CC-BY-NC license)
