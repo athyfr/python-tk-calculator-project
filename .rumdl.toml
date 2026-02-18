@@ -48,6 +48,6 @@ headings = true     # Include headings in line length check
 [MD033]
 allowed-elements = ["details", "summary"] # Allow collapsible HTML sections.
 
-# [MD044]
-# names = ["rumdl", "Markdown", "GitHub"]  # Proper names that should be capitalized correctly
-# code-blocks = false  # Check code blocks for proper names (default: false, skips code blocks)
+[MD044]
+names = ["rumdl", "Markdown", "GitHub"] # Proper names that should be capitalized correctly
+code-blocks = false # Don't check code blocks for proper names
