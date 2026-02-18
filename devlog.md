@@ -60,7 +60,9 @@
 
 15. Added exception handling based on [this](https://www.geeksforgeeks.org/python/define-custom-exceptions-in-python/)
 
-16. Begun GitHub upload process; syncing credentials with GitHub (see [this](https://stackoverflow.com/questions/64766508/git-change-users-credentials-in-past-commits-without-changing-the-history-date))
+16. Begun GitHub upload process; syncing credentials with GitHub (see
+    [this](https://stackoverflow.com/questions/64766508/git-change-users-credentials-in-past-commits-without-changing-the-history-date))
+
     This is needed because offline username included my real name.
 
 17. Uploaded to GitHub.
