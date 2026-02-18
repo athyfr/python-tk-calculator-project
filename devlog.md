@@ -66,3 +66,8 @@
     This is needed because offline username included my real name.
 
 17. Uploaded to GitHub.
+
+## Feb 18th, 2026
+
+18. Researched and found tutorial by _Real Python_ about unit tests.
+    ([link](https://realpython.com/python-testing/))
