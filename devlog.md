@@ -69,5 +69,4 @@
 
 ## Feb 18th, 2026
 
-18. Researched and found tutorial by _Real Python_ about unit tests.
-    ([link](https://realpython.com/python-testing/))
+18. Researched and found [tutorial by _Real Python_ about unit tests.](https://realpython.com/python-testing/))
