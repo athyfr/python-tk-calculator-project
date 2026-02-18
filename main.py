@@ -4,6 +4,7 @@ from functools import partial
 from tkinter import ttk
 
 from secure_eval import eval_expr
+import recursive_math
 
 # NOTE: LSP code rules:
 # - ty LSP can perform type checking if you use hinting.
@@ -15,31 +16,6 @@ from secure_eval import eval_expr
 # - Nothing yet!
 
 # ------- Functions
-
-# ----- Calculate functions
-
-
-# Defined to be accurate based on en.wikipedia.org/wiki/Factorial
-# Since negative factorials are not possible, -1 is returned in those
-#   cases to indicate an error.
-def factorial(n: int) -> int:
-    # If n is negative, return -1 to indicate error.
-    if n < 0:
-        raise ValueError("Negative number does not have a factorial.")
-    if n != int(n):
-        raise ValueError("Factorial function only supports integers.")
-    # If n is 0 or 1, return 1, as that is correct in that case.
-    if n == 0 or n == 1:
-        return 1
-
-    # Calculate factorial using recursion
-    factorial: int = 1
-
-    for i in range(2, n + 1):
-        factorial *= i
-
-    return factorial
-
 
 # ----- Event functions
 
@@ -57,7 +33,7 @@ def calculate() -> None:
     print(f"Calculating '{expression_str}'")
     try:
         scope: dict = {
-            "factorial": factorial,
+            "factorial": recursive_math.factorial,
             "sqrt": math.sqrt
         }
         result: str = eval_expr(expression_str, scope)
