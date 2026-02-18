@@ -11,12 +11,10 @@ author: Asten Valentinus
 
 ## Competencies Met
 
-#### Recursive Algorithms
 
 
+## Competencies
 
-- Understanding of directory structure.
-- Ability to use libraries for abstracted data-storage (such as JSON).
-- Ability to save multiline strings to files.
-- Ability to save raw bytes to files.
-- Understanding of different read/write modes (e.g. write vs. append).
+Sourced from [here (Grade 12),](https://curriculum.gov.bc.ca/curriculum/mathematics/11/computer-science) and [here (Grade 11).](https://curriculum.gov.bc.ca/curriculum/mathematics/12/computer-science)
+
+The Province of BC used an all rights reserved license, so I can't copy it here.
