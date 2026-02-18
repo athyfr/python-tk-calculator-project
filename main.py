@@ -3,6 +3,8 @@ import tkinter as tk
 from functools import partial
 from tkinter import ttk
 
+from secure_eval import eval_expr
+
 # NOTE: LSP code rules:
 # - ty LSP can perform type checking if you use hinting.
 #       Always use hinting on variables.
@@ -54,7 +56,11 @@ def calculate() -> None:
     expression_str: str = expression.get()
     print(f"Calculating '{expression_str}'")
     try:
-        result: str = eval(expression_str)
+        scope: dict = {
+            "factorial": factorial,
+            "sqrt": math.sqrt
+        }
+        result: str = eval_expr(expression_str, scope)
         output.set(result)
         print(f"Answer is '{result}'.")
     except ValueError as e:
