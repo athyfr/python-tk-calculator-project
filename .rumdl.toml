@@ -31,16 +31,16 @@ flavor = "gfm" # GitHub flavour Markdown.
 # Rule-specific configurations (uncomment and modify as needed)
 
 [MD003]
-style = "atx"  # Heading style (atx, atx_closed, setext)
+style = "atx"  # Heading style (atx uses hashtags to mark headers)
 
 [MD004]
-style = "dash"  # Unordered list style (asterisk, plus, dash, consistent)
+style = "dash"  # Use dashes (-) to mark list items
 
 [MD007]
-indent = 4  # Unordered list indentation
+indent = 4  # Indent list items by 4 spaces.
 
 [MD013]
-line-length = 80    # Line length
+line-length = 80    # Set line length to standard limit
 code-blocks = false # Exclude code blocks from line length check
 tables = true       # Include tables in line length check
 headings = true     # Include headings in line length check
