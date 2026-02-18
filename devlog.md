@@ -73,3 +73,6 @@
 
 19. Teacher assigned to implement a program for solving linear systems.
     [Textbook can be found here](https://github.com/APEXCalculus/Fundamentals-of-Matrix-Algebra-4th-Edition/blob/master/Fundamentals%20of%20Matrix%20Algebra%203rd%20Edition.pdf) (CC-BY-NC license)
+
+20. Thoroughly looked through (and copied) curricular competencies. (not
+    present in this repo for licensing reasons)
