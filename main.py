@@ -1,9 +1,8 @@
-import math  # Included for scope of `eval()` function. # noqa: F401
 import tkinter as tk
 from functools import partial
 from tkinter import ttk
 
-import recursive_math
+from module_loader import names
 from secure_eval import eval_expr
 
 # NOTE: LSP code rules:
@@ -32,11 +31,7 @@ def calculate() -> None:
     expression_str: str = expression.get()
     print(f"Calculating '{expression_str}'")
     try:
-        scope: dict = {
-            "factorial": recursive_math.factorial,
-            "sqrt": math.sqrt
-        }
-        result: str = eval_expr(expression_str, scope)
+        result: str = eval_expr(expression_str, module_loader.names)
         output.set(result)
         print(f"Answer is '{result}'.")
     except ValueError as e:
