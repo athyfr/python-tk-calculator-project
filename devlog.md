@@ -83,3 +83,7 @@
 
 23. Begun work implementing JSON-based scope definition system. (will be
     committed when usable)
+
+## Feb 19th, 2026
+
+24. Found out how to dynamically import modules from [this article](https://www.pythonmorsels.com/dynamically-importing-modules/)
