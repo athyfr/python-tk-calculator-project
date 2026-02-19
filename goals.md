@@ -16,20 +16,20 @@ The Province of BC used an all rights reserved license, so I can't copy it here.
 
 ## Solve Linear Systems
 
-Implement a algorithm for solving linear systems.
+Implement an algorithm for solving linear systems.
 
-They can be represented as a or matrix, for example:
+They can be represented as a matrix, for example:
 
-$x + y + z = 1$
-$2x + 6y - z = -4$
+$x + y + z - 1 = 0$
+$2x + 6y - z + 4 = 0$
 $4x - 5y + 2z = 0$
 
 could be represented as:
 
 ```py
 [
-    [ 1,  1,  1,  1],
-    [-4,  2,  6, -1],
+    [-1,  1,  1,  1],
+    [ 4,  2,  6, -1],
     [ 0,  4, -5,  2]
 ]
 ```
