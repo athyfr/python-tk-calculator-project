@@ -80,3 +80,6 @@
 21. Organized code into separate files
 
 22. Enforced better security on eval call. (see [Real Python's article](https://realpython.com/python-eval-function/))
+
+23. Begun work implementing JSON-based scope definition system. (will be
+    committed when usable)
