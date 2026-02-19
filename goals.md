@@ -18,6 +18,9 @@ The Province of BC used an all rights reserved license, so I can't copy it here.
 
 Implement an algorithm for solving linear systems.
 
+Use matrices to solve them, and see section 1.2 of the textbook for how to do
+that.
+
 They can be represented as a matrix, for example:
 
 $x + y + z - 1 = 0$
