@@ -8,12 +8,6 @@ assigned to do?
 - Grade 12 CS C: Recursive Algorithms
     - factorials - implemented `factorial(n: int) -> int` in `main.py`.
 
-## Curriculum Content
-
-Sourced from [here (Grade 12),](https://curriculum.gov.bc.ca/curriculum/mathematics/11/computer-science) and [here (Grade 11).](https://curriculum.gov.bc.ca/curriculum/mathematics/12/computer-science)
-
-The Province of BC used an all rights reserved license, so I can't copy it here.
-
 ## Solve Linear Systems
 
 Implement an algorithm for solving linear systems.
