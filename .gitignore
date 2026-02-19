@@ -1,6 +1,7 @@
 # Software caches are redundant
 .rumdl_cache
 __pycache__
+.direnv
 # The textbook should not be included here
 Fundamentals-of-Matrix-Algebra-3rd-Edition.pdf
 # Signifies content based on 'All Rights Reserved' sources.
