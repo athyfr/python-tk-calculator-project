@@ -7,7 +7,7 @@ def factorial(n: int) -> int:
     # If n is negative, return -1 to indicate error.
     if n < 0:
         raise ValueError("Negative number does not have a factorial.")
-    if n != int(n):
+    if n != int(n):  # Supports duck-typing (e.g. integral float)
         raise ValueError("Factorial function only supports integers.")
     # If n is 0 or 1, return 1, as that is correct in that case.
     if n == 0 or n == 1:
