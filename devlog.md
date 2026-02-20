@@ -89,3 +89,7 @@
 24. Found out how to dynamically import modules from [this article](https://www.pythonmorsels.com/dynamically-importing-modules/)
 
 25. REFLECTION (for Feb 17th-18th)
+
+## Feb 20th, 2026
+
+26. Noted memory state diagram goal.

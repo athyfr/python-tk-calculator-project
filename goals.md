@@ -32,3 +32,8 @@ could be represented as:
 ```
 
 (constant numbers on the _left_ for easier access by code)
+
+## Understand Memory State Diagrams
+
+One relevant library I found (my own research) is the [`memory-graph`](https://pypi.org/project/memory-graph/) pip
+package.
