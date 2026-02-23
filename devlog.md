@@ -93,3 +93,15 @@
 ## Feb 20th, 2026
 
 26. Noted memory state diagram goal.
+
+## Feb 23rd, 2026
+
+27. Begun writing `module_loader.py`.
+
+28. Looked into [reading files](https://www.geeksforgeeks.org/python/how-to-read-from-a-file-in-python/) in Python. (Needed for module loading)
+
+29. Researched [tree traversal](https://www.geeksforgeeks.org/python/tree-traversal-techniques-in-python/) for Python; needed for module loading.
+    Decided preorder traversal to be easiest in this case.
+
+30. Teacher assigned up to textbook section 1.2 to finish before the end of the
+    day.
