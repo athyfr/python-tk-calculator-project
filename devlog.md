@@ -105,3 +105,5 @@
 
 30. Teacher assigned up to textbook section 1.2 to finish before the end of the
     day.
+
+31. Finished; working on 1.3.
