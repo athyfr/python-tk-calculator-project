@@ -107,3 +107,7 @@
     day.
 
 31. Finished; working on 1.3.
+
+32. Decided to find an example in video form for learning gaussian elimination;
+    the textbook isn't doing it for me. Decided to watch [this one](https://www.youtube.com/watch?v=2j5Ic2V7wq4)
+    next time; class is ending now.
