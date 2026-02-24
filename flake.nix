@@ -14,12 +14,11 @@
       rec {
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            python314.withPackages
-            (
+            (python314.withPackages (
               ps: with ps; [
                 tkinter
               ]
-            )
+            ))
           ];
         };
       }
