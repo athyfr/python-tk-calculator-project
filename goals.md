@@ -6,7 +6,7 @@ assigned to do?
 ## Goals Met
 
 - Grade 12 CS C: Recursive Algorithms
-    - factorials - implemented `factorial(n: int) -> int` in `main.py`.
+    - factorials - implemented `factorial(n: int) -> int` in `recursive_math.py`.
 
 ## Solve Linear Systems
 
