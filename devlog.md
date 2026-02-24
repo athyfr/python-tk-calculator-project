@@ -111,3 +111,9 @@
 32. Decided to find an example in video form for learning Gaussian elimination;
     the textbook isn't doing it for me. Decided to watch [this one](https://www.youtube.com/watch?v=2j5Ic2V7wq4)
     next time; class is ending now.
+
+33. REFLECTION
+
+34. (at home) worked on getting NixOS development environment working.
+
+35. Worked on module loader and begun tree traversal function.
