@@ -6,6 +6,7 @@ def execute_on_endpoints(
     tree: dict,
     element: list[str],
     function: Callable[[Any], Any],
+    inline: bool,
     _parents: list[str] = [],
 ) -> dict:
     """Replaces tree elements using a given function.
@@ -18,8 +19,8 @@ def execute_on_endpoints(
     All found keys are then processed with function, and replaced by
     function's output in tree. (which is modified in-place)
 
-    The modified tree is returned, though it is modified in place as
-    well.
+    The modified tree is returned. The original tree may or may not be
+    left intact (testing required).
 
     :param tree: The tree to search in, and modify.
     :type tree: dict
@@ -29,6 +30,9 @@ def execute_on_endpoints(
     :param function: The function that is used to process instances
         matching element.
     :type function: Callable[[Any], Any]
+    :param inline: Should the function output be placed in the dict that
+        contained the match, rather than replacing the match's contents?
+        (The match is removed in this case)
     :param _parents: Used internally when traversing the data-structure
         to keep track of parents outside tree.
         (default is [])
@@ -53,7 +57,10 @@ def execute_on_endpoints(
         # Check if we found an instance of element
         if hierarchy_definition == element:
             # Run function and replace
-            tree[e] = function(tree[e])
+            if inline:
+                tree = tree | function(tree[e])
+            else:
+                tree[e] = function(tree[e])
 
         # If it isn't a match, can it be traversed?
         elif tree[e] is dict:
