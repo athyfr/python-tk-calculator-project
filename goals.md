@@ -17,21 +17,16 @@ that.
 
 They can be represented as a matrix, for example:
 
-$x + y + z - 1 = 0$
-$2x + 6y - z + 4 = 0$
+$x + y + z = 1$
+$2x + 6y - z = -4$
 $4x - 5y + 2z = 0$
 
 could be represented as:
 
-```py
-[
-    [-1,  1,  1,  1],
-    [ 4,  2,  6, -1],
-    [ 0,  4, -5,  2]
-]
-```
+$$\left[ \begin{matrix} 1 & 1 & 1 \\ 2 & 6 & -1 \\ 4 & -5 & 2 \end{matrix} \; \right| \left. \begin{matrix} 1 \\ -4 \\ 0 \end{matrix} \right]$$
 
-(constant numbers on the _left_ for easier access by code)
+Gaussian elimination should then be used to solve this, which is
+shown in [a Drawy notes file.](drawy/gaussian-elimination.drawy.json)
 
 ## Understand Memory State Diagrams
 
