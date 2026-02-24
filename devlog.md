@@ -101,13 +101,13 @@
 28. Looked into [reading files](https://www.geeksforgeeks.org/python/how-to-read-from-a-file-in-python/) in Python. (Needed for module loading)
 
 29. Researched [tree traversal](https://www.geeksforgeeks.org/python/tree-traversal-techniques-in-python/) for Python; needed for module loading.
-    Decided preorder traversal to be easiest in this case.
+    Decided pre-order traversal to be easiest in this case.
 
 30. Teacher assigned up to textbook section 1.2 to finish before the end of the
     day.
 
 31. Finished; working on 1.3.
 
-32. Decided to find an example in video form for learning gaussian elimination;
+32. Decided to find an example in video form for learning Gaussian elimination;
     the textbook isn't doing it for me. Decided to watch [this one](https://www.youtube.com/watch?v=2j5Ic2V7wq4)
     next time; class is ending now.
