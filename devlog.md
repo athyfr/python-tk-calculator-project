@@ -117,3 +117,24 @@
 34. (at home) worked on getting NixOS development environment working.
 
 35. Worked on module loader and begun tree traversal function.
+
+## Feb 24th, 2026
+
+36. Worked on textbook; finished reading through and note-taking Gaussian
+    elimination.
+
+37. Added TODO file; used for planning improvements to structure and marking
+    things to do that are not strictly assigned by teacher.
+
+38. Updated goals.md
+
+39. REFLECTION
+
+## Feb 25th, 2026
+
+40. Finished textbook section 1.3, and moving on to 1.4.
+
+41. Confused a little about reduced row echelon form; looking at [GeeksforGeeks
+    article](https://www.geeksforgeeks.org/maths/reduced-row-echelon-form/) for guidance. Figured it out.
+
+42. Started [`gaussian_elimination` subproject.](subprojects/gaussian_elimination) Creating `Matrix` class.
