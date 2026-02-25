@@ -138,3 +138,5 @@
     article](https://www.geeksforgeeks.org/maths/reduced-row-echelon-form/) for guidance. Figured it out.
 
 42. Started [`gaussian_elimination` subproject.](subprojects/gaussian_elimination) Creating `Matrix` class.
+
+43. Decided on a documentation standard.
