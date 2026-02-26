@@ -140,3 +140,8 @@
 42. Started [`gaussian_elimination` subproject.](subprojects/gaussian_elimination) Creating `Matrix` class.
 
 43. Decided on a documentation standard.
+
+## Feb 26th, 2026
+
+44. Found that [LaTeX expressions are supported in reStructuredText;](https://docs.generic-mapping-tools.org/6.2/rst-cheatsheet.html) I can
+    put them in comments.
