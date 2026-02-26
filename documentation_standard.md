@@ -19,6 +19,11 @@ Most interesting parts (to me):
 Reference the official Google document, not the copy below (if you're not me.)
 I slimmed it down to only what's important _to me._
 
+Also, [reStructuredText](https://docs.generic-mapping-tools.org/6.2/rst-cheatsheet.html) has a few less commonly used features that I do
+use in this codebase, namely:
+
+- LaTeX math blocks
+
 ## Notes
 
 ### 2.2: Imports
