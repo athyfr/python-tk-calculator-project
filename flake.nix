@@ -16,9 +16,12 @@
           buildInputs = with pkgs.python314Packages; [
             (python.withPackages (
               ps: with ps; [
-                tkinter
+                tkinter # GUI library
+                sphinx # Documentation generator
               ]
             ))
+            # For packages not packaged in Nix
+            # (such as json-with-comments)
             pip
           ];
         };
