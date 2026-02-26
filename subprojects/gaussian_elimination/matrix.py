@@ -57,4 +57,20 @@ class Matrix:
 
         self.data = data
 
-    def add_row(row_a: int, row_b: int, factor: float)
+    def add_row(self, row_a: int, row_b: int, factor: float) -> None
+        """Adds row ``row_b`` * ``factor`` to row ``row_a`` (replacing row ``row_a``) in the Matrix
+
+        Performs Elementary Row Operation 1 as so:
+        ``factor`` * row ``row_b`` + row ``row_a`` -> row ``row_a``
+
+        Row arguments indicate indices.
+
+        Args:
+            row_a: The index of the row to add to, (and change).
+            row_b: The index of addend row.
+            factor: What to multiply row ``row_b`` by before adding to row ``row_a``.
+        """
+
+        for col in range(self.dimensions[0]):
+            # Add row_b * factor to row_a
+            self.data[col][row_a] += self.data[col][row_b] * factor
