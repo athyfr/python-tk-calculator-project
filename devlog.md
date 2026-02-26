@@ -145,3 +145,6 @@
 
 44. Found that [LaTeX expressions are supported in reStructuredText;](https://docs.generic-mapping-tools.org/6.2/rst-cheatsheet.html) I can
     put them in comments.
+
+45. Going through textbook section 1.4; learning about independent vs. dependent
+    variables. (Math concept, not programming concept)
