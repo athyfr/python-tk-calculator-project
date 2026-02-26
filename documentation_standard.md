@@ -8,9 +8,7 @@ Sources:
     - [reStructuredText](https://docutils.sourceforge.io/rst.html) markup, which is used by:
     - [Sphinx](https://www.sphinx-doc.org/en/master/usage/domains/python.html) documentation generator (similar to Doxygen).
 
-Will follow Google's standard, with an adjustment:
-
-- Exclude types in docstrings; Python type hinting is enough.
+Will follow Google's standard.
 
 Most interesting parts (to me):
 
