@@ -123,10 +123,10 @@
 36. Worked on textbook; finished reading through and note-taking Gaussian
     elimination.
 
-37. Added TODO file; used for planning improvements to structure and marking
+37. Added TO-DO file; used for planning improvements to structure and marking
     things to do that are not strictly assigned by teacher.
 
-38. Updated goals.md
+38. Updated `goals.md`
 
 39. REFLECTION
 
@@ -134,7 +134,7 @@
 
 40. Finished textbook section 1.3, and moving on to 1.4.
 
-41. Confused a little about reduced row echelon form; looking at [GeeksforGeeks
+41. Confused a little about Reduced Row Echelon Form; looking at [GeeksforGeeks
     article](https://www.geeksforgeeks.org/maths/reduced-row-echelon-form/) for guidance. Figured it out.
 
 42. Started [`gaussian_elimination` subproject.](subprojects/gaussian_elimination) Creating `Matrix` class.
