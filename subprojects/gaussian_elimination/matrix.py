@@ -60,8 +60,11 @@ class Matrix:
     def add_row(self, row_a: int, row_b: int, factor: float) -> None
         """Adds row ``row_b`` * ``factor`` to row ``row_a`` (replacing row ``row_a``) in the Matrix
 
-        Performs Elementary Row Operation 1 as so:
-        ``factor`` * row ``row_b`` + row ``row_a`` -> row ``row_a``
+        Performs Elementary Row Operation 1 on row ``row_a``, adding row ``row_b`` with a factor of ``factor``.
+
+        The math expression this represents is as follows:
+        .. math::
+            $$\verb|factor| \cdot R_{\verb|row_b|} + R_{\verb|row_a|} \rightarrow R_{\verb|row_a|}$$
 
         Row arguments indicate indices.
 
@@ -74,3 +77,19 @@ class Matrix:
         for col in range(self.dimensions[0]):
             # Add row_b * factor to row_a
             self.data[col][row_a] += self.data[col][row_b] * factor
+
+    def multiply_row(self, row: int, factor: float) -> None:
+        """Multiplies row ``row`` by ``factor``.
+
+        Performs Elementary Row Operation 2 on row ``row``, the nonzero scalar being ``factor``.
+
+        ..math::
+            $$\verb|factor| \cdot R_{\verb|row|} \rightarrow R_{\verb|row|}$$
+
+        Args:
+
+        """
+
+        for col in range(self.dimensions[0]):
+            # Multiply row by factor
+            self.data[col][row] *= factor
