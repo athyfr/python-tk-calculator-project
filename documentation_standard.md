@@ -23,6 +23,8 @@ Also, [reStructuredText](https://docs.generic-mapping-tools.org/6.2/rst-cheatshe
 use in this codebase, namely:
 
 - LaTeX math blocks
+- Variables referenced in one-liners and paragraphs are formatted as inline
+  literals (e.g. `\`\`variable\`\``)
 
 ## Notes
 
