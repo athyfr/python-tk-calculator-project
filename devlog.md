@@ -141,6 +141,8 @@
 
 43. Decided on a documentation standard.
 
+44.5. REFLECTION (forgot to log)
+
 ## Feb 26th, 2026
 
 44. Found that [LaTeX expressions are supported in reStructuredText;](https://docs.generic-mapping-tools.org/6.2/rst-cheatsheet.html) I can
@@ -148,3 +150,10 @@
 
 45. Going through textbook section 1.4; learning about independent vs. dependent
     variables. (Math concept, not programming concept)
+
+## Feb 27th, 2026
+
+46. Learned from textbook about how to tell how many 'solutions' an augmented
+    rref matrix has.
+
+47. REFLECTION
