@@ -18,11 +18,9 @@
               ps: with ps; [
                 tkinter # GUI library
                 sphinx # Documentation generator
+                pip # For installation of e.g. json-with-comments
               ]
             ))
-            # For packages not packaged in Nix
-            # (such as json-with-comments)
-            pip
           ];
         };
       }
