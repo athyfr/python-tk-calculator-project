@@ -137,7 +137,7 @@
 41. Confused a little about Reduced Row Echelon Form; looking at [GeeksforGeeks
     article](https://www.geeksforgeeks.org/maths/reduced-row-echelon-form/) for guidance. Figured it out.
 
-42. Started [`gaussian_elimination` subproject.](subprojects/gaussian_elimination) Creating `Matrix` class.
+42. Started [`gaussian_elimination` sub-project.](subprojects/gaussian_elimination) Creating `Matrix` class.
 
 43. Decided on a documentation standard.
 
@@ -154,6 +154,26 @@
 ## Feb 27th, 2026
 
 46. Learned from textbook about how to tell how many 'solutions' an augmented
-    rref matrix has.
+    reduced row echelon form matrix has.
 
 47. REFLECTION
+
+## Mar 2nd, 2026
+
+48. Deprioritized code documentation; I'll do it when I have time.
+
+49. Working on Gaussian Elimination function of `Matrix` class.
+
+50. Switched away from a monorepo structure; sub-projects will be linked in
+    README.
+
+51. Writing CLI manual testing interface for Matrix class. (Learning
+    [user input](https://www.w3schools.com/python/python_user_input.asp))
+
+## Mar 3rd, 2026
+
+52. Worked on matrix class and manual testing interface of matrix class
+
+## Mar 4th, 2026
+
+53. Worked on matrix class manual testing interface.

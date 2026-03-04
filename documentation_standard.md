@@ -54,10 +54,11 @@ use in this codebase, namely:
 ### 2.4: Exceptions
 
 - Exceptions are to be used carefully, and `assert` may only be used in
-  pytests.
-- Never use catch-all `except:` statements, or catch `Exception` or `StandardError` unless:
-    - re-raising the exception
-    - creating an isolation point to make sure exceptions aren't propogated, but
+  tests (pytest).
+- Never use catch-all `except:` statements, or catch `Exception` or
+  `StandardError` unless:
+    - Re-raising the exception
+    - Creating an isolation point to make sure exceptions aren't propagated, but
       instead recorded and suppressed.
 - Minimize the amount of code in `try`/`except` blocks, to ensure you're
   catching the error you intended to catch.
