@@ -19,3 +19,12 @@ namespace, including:
 
 - `factorial(n: int) -> int`: Calculates the factorial using a for loop, and
   returns a `ValueError` when negative numbers or integers are used.
+
+## Subprojects
+
+The teacher required that certain things were first implemented apart from this
+project, to make them clear from the structural code of it.
+
+Their repositories are linked here:
+
+- [Gaussian Elimination](https://github.com/athyfr/py-learn-gaussian-elimination)
