@@ -8,6 +8,9 @@ This project is made to try to fulfill this requirement:
 > (Fibonacci, exponents, factorials, palindromes, combinations, greatest
 > common factor)"
 
+It is currently not functional, as I'm in the middle of an overhaul of its
+structure.
+
 ## Functions
 
 This calculator GUI uses Python's `eval()` function, so Python expressions are
