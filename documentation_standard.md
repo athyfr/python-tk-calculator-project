@@ -8,7 +8,8 @@ Sources:
     - [reStructuredText](https://docutils.sourceforge.io/rst.html) markup, which is used by:
     - [Sphinx](https://www.sphinx-doc.org/en/master/usage/domains/python.html) documentation generator (similar to Doxygen).
 
-Will follow Google's standard.
+Will reference Google standard. This is, however, not a priority, so the code is
+not guaranteed to follow it.
 
 Most interesting parts (to me):
 
