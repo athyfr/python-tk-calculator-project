@@ -185,3 +185,9 @@
 55. Working on completing Gaussian Elimination member function
 
 56. REFLECTION
+
+## Mar 23rd, 2026
+
+27. Completed Gaussian Elimination member function
+
+28. Working on solution counter.
