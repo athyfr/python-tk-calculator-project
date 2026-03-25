@@ -200,6 +200,10 @@
 
 ## Mar 25th
 
-31. Finishing refactoring Matrix class
+31. Finishing refactoring Matrix class...
 
 32. Learned about [Python property() attribute constructor.](https://docs.python.org/3/library/functions.html#property) ([forum](https://stackoverflow.com/questions/2627002))
+
+33. Learned about @cached_property in Python.
+
+34. Found [suggested way to check whether @cached_property is currently cached.](https://discuss.python.org/t/76667/7)
