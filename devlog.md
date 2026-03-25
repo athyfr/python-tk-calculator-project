@@ -191,3 +191,15 @@
 27. Completed Gaussian Elimination member function
 
 28. Working on solution counter.
+
+## Mar 24th
+
+29. Begun refactoring Matrix class.
+
+30. Begun writing Pytest module.
+
+## Mar 25th
+
+31. Finishing refactoring Matrix class
+
+32. Learned about [Python property() attribute constructor.](https://docs.python.org/3/library/functions.html#property) ([forum](https://stackoverflow.com/questions/2627002))
