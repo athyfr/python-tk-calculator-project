@@ -207,3 +207,14 @@
 33. Learned about @cached_property in Python.
 
 34. Found [suggested way to check whether @cached_property is currently cached.](https://discuss.python.org/t/76667/7)
+
+35. Enabled _most_ linting rules in Ruff and all in ty, for stricter linting.
+    - This includes some that necessarily require significant changes to the code:
+        - FBT: Disallows booleans as function arguments, to prevent the [boolean
+          trap](https://adamj.eu/tech/2021/07/10/python-type-hints-how-to-avoid-the-boolean-trap/)
+        - COM812: Requires trailing commas when something is split across
+          multiple lines. (reduces git diff size)
+        - LOG015: Requires instantiated logger to be used from logger module.
+    - The newly enabled rules also provide lots of docstring linting.
+
+## Mar 26th
