@@ -218,3 +218,5 @@
     - The newly enabled rules also provide lots of docstring linting.
 
 ## Mar 26th
+
+36. Git Stashed Matrix class refactoring for later; I'd better focus on the tests.
