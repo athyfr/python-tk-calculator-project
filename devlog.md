@@ -220,3 +220,11 @@
 ## Mar 26th
 
 36. Git Stashed Matrix class refactoring for later; I'd better focus on the tests.
+
+37. Begun porting teacher's tests to work with my `Matrix` class.
+
+38. Finished reading the book about pytest.
+
+## Mar 27th
+
+39. Finished integrating teacher's matrix test with old version of Matrix class.
