@@ -228,3 +228,9 @@
 ## Mar 27th
 
 39. Finished integrating teacher's matrix test with old version of Matrix class.
+
+## Mar 28th
+
+40. Begun writing my own tests by teacher's request.
+
+41. Linted `main.py`.
