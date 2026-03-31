@@ -234,3 +234,12 @@
 40. Begun writing my own tests by teacher's request.
 
 41. Linted `main.py`.
+
+## Mar 31st
+
+42. Created first test of `test_matrix.py` module; tests
+    `matrix.Matrix.__init__()`.
+
+43. Reconfigured Nix environment to inherit `venv`.
+
+44. Configured `ty` environment.
