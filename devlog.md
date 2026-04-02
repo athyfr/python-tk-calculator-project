@@ -249,3 +249,12 @@
 45. Refactored existing fixtures and test.
 
 46. Began working on more complex fixtures.
+
+## Apr 2nd
+
+47. Learned about `itertools.chain.from_iterable` from [this SO answer.](https://stackoverflow.com/a/953097)
+
+48. Learned about dynamic type annotations for functions indirectly from the
+    function signature of `zip`. Applied it to a function in `test_matrix.py`.
+    - This means my use of `typing.Any` is no longer necessary. Adjusted LSP
+      rules accordingly.
