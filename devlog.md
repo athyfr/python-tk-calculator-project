@@ -243,3 +243,9 @@
 43. Reconfigured Nix environment to inherit `venv`.
 
 44. Configured `ty` environment.
+
+## Apr 1st
+
+45. Refactored existing fixtures and test.
+
+46. Began working on more complex fixtures.
