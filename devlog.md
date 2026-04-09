@@ -258,3 +258,12 @@
     function signature of `zip`. Applied it to a function in `test_matrix.py`.
     - This means my use of `typing.Any` is no longer necessary. Adjusted LSP
       rules accordingly.
+
+## Apr 7th
+
+49. Reconfigured development environment for simplicity; replaced `nix develop`
+    flake with devenv.
+
+## Apr 8th
+
+50. Found use of RNG in tests better than testing all possible combos.
