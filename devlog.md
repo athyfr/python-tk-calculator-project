@@ -267,3 +267,7 @@
 ## Apr 8th
 
 50. Found use of RNG in tests better than testing all possible combos.
+
+## Apr 9th
+
+51. Worked on unit reflection.
