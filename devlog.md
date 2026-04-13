@@ -271,3 +271,7 @@
 ## Apr 9th
 
 51. Worked on unit reflection.
+
+## Apr 13th
+
+52. Submitted term reflection.
