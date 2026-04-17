@@ -275,3 +275,7 @@
 ## Apr 13th
 
 52. Submitted term reflection.
+
+## Apr 15-16th
+
+53. Worked on curriculum plan
