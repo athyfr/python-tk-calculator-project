@@ -279,3 +279,7 @@
 ## Apr 15-16th
 
 53. Worked on curriculum plan
+
+## Apr 17th
+
+54. Worked on tests. Got 2/8 created.
