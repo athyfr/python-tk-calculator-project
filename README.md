@@ -1,5 +1,7 @@
 # Python Calculator Project
 
+NOTE: This project has been abandoned in favour of creating small CLI projects to satisfy course requirements. See main repository for that [here.](https://github.com/athyfr/computer-science-adss-course-notes)
+
 ## Goal
 
 This project is made to try to fulfill this requirement:
